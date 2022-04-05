@@ -30,8 +30,8 @@ const storeReducer = (state = initialState, action) => {
             showCounter: !state.showCounter,
         }
     }
-    if(action.type ==='login'){
-        return{
+    if (action.type === 'login') {
+        return {
             ...state,
             loginState: true
         }
